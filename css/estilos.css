@@ -1,0 +1,719 @@
+body
+{
+  
+   margin: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+   background-color: #050504;
+
+   
+}
+
+/* disenio general*/
+
+.galeria{
+    width: 100%
+        margin :0;
+    list-style: none;
+   padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.facebook
+{
+    position: relative;
+    display:flex;
+    
+    margin-left: 20%; 
+}
+
+
+.watch_button a
+{
+    /*box y texto formando un button*/
+    position: relative;
+    margin: auto;
+
+    display: block;
+    border: 1px solid white;
+    width: 255px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    
+    /* estetica del button*/
+    text-shadow: 0px 0px 5px #410707,
+                 0px 0px 10px #410707,
+                 0PX 0PX 15PX #410707,
+                  0PX 0PX 10PX #FFF,
+    0PX 0PX 10PX #FFF,
+        0PX 0PX 35PX #410707,
+        0PX 0PX 20PX #410707,
+        0PX 0PX 20PX #410707;
+    box-shadow: 0px 0px 5px #FFF;
+    color: #fff;
+ 
+    font-family: fantasy;
+    font-size: 200%
+   
+    
+    
+}
+
+.backk_button img
+{
+    position: relative;
+display: block;
+
+     width: 130px;
+    height: 75px;
+    margin: auto;
+ 
+    
+    
+}
+
+.movie_info h1,h4
+{
+margin-left: 20%;
+      color:#FFFFFF;
+    z-index:2;
+    position: relative;
+    background-position: center;
+    
+}
+
+.movie_info h1
+{
+   
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    text-shadow:  0PX 0PX 3PX #410707;
+}
+
+.movie_info h4
+{
+    
+    width: 50%;
+   height: 70px;
+    
+    
+    font-size: 20px;
+    font-family: 'Public Sans', sans-serif;
+    color: white;
+     text-shadow:  0PX 0PX 3PX #410707;
+}
+
+
+
+
+
+
+/******JOKER**************************************/
+.presentacionJoker
+{
+    /*  imagen de fondo */
+
+      background-image: url(https://k62.kn3.net/taringa/D/2/3/C/1/B/pedrosatv/550x310_A90.jpg);
+   width: 100%;
+    height:  661px;
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+  
+    
+    
+}
+
+.presentacionJoker:before
+{
+     content: "";
+    width: 100%;
+    height: 661px;
+    background-color: #050504;
+    position: absolute;
+    opacity: 0.9;
+    background-size: cover;
+     background-attachment: fixed;
+     background-position: center ;
+    
+    
+}
+
+
+
+
+.picture_cineJoker img{
+    position: relative;
+    display: block;
+    
+    opacity: 0.6px;
+    margin-left: 30px;
+    opacity: 75%;
+    
+    
+    
+}
+
+
+
+
+
+
+
+/****************INTERESTELAR*********************************/
+
+.presentacionInterestelar
+{
+        /* fondo */
+
+      background-image: url(img/interestelar2.jpg);
+    width: 100%;
+    height: 661px;
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    
+}
+
+.presentacionInterestelar:before
+{
+     content: "";
+    width: 100%;
+    height: 661px;
+    background-color: #050504;
+    position: absolute;
+    opacity: 0.9;
+    background-size: cover;
+     background-attachment: fixed;
+     background-position: center center;
+    
+}
+
+
+.picture_cineInterestelar img{
+    
+    
+     position: relative;
+    display: block;
+    
+    opacity: 0.6px;
+    margin-left: 30px;
+    opacity: 50%;
+    
+}
+
+
+/******************************* BLACK PANTER*****************************/
+.presentacionBlackPanther
+{
+     /* fondo */
+
+      background-image: url(img/blackPanter_fondo.jpg);
+   width: 100%;
+     height: 661px;
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  
+
+        
+}
+.presentacionBlackPanther:before
+{
+    content: "";
+    width: 100%;
+     height: 661px;
+    background-color: #050504;
+    position: absolute;
+    opacity: 0.9;
+    background-size: cover;
+     background-attachment: fixed;
+     background-position: center center;
+}
+
+.picture_cineBlackPanther img{
+    position: relative;
+    display: block;
+    
+    opacity: 0.6px;
+    margin-left: 30px;
+    opacity: 50%;
+    
+}
+/******************************* JUMANJI 2019 *****************************/
+
+     
+.presentacionjumanji2017
+{
+     /* fondo */
+
+      background-image: url(https://image.tmdb.org/t/p/original/2VWmXjomGf4HPgSZ73g67qMYFkk.jpg);
+   width: 100%;
+     height: 661px;
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  
+
+        
+}
+.presentacionjumanji2017:before
+{
+    content: "";
+    width: 100%;
+     height: 661px;
+    background-color: #050504;
+    position: absolute;
+    opacity: 0.9;
+    background-size: cover;
+     background-attachment: fixed;
+     background-position: center center;
+}
+
+.picture_cineJumanji2017 img{
+    position: relative;
+    display: block;
+    
+    opacity: 0.6px;
+    margin-left: 30px;
+    opacity: 50%;
+    
+}
+
+/******************************* PRISIONEROS 2019 *****************************/
+
+
+
+     
+.presentacionPrisioneros
+{
+     /* fondo */
+
+      background-image: url(https://image.tmdb.org/t/p/original/r5GFZbhCdIqaoQGZbMDX210F1Xk.jpg);
+   width: 100%;
+     height: 661px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  
+
+        
+}
+.presentacionPrisioneros:before
+{
+    content: "";
+    width: 100%;
+     height: 661px;
+    background-color: #050504;
+    position: absolute;
+    opacity: 0.9;
+    background-size: cover;
+     background-attachment: fixed;
+     background-position: center center;
+}
+
+.picture_prisioneros img{
+    position: relative;
+    display: block;
+    
+    opacity: 0.6px;
+    margin-left: 30px;
+    opacity: 50%;
+    
+}
+
+
+
+
+=======
+body
+{
+  
+   margin: 0;
+    padding-top: 0;
+   
+   background-color: #050504;
+
+   
+}
+/******* ICON *********/
+
+.icon img{
+   position:  fixed;
+display: block;
+     width: 130px;
+    height: 75px;
+margin: auto;
+   
+   
+    
+}
+
+.icon
+{
+   
+    content: "";
+    display: block;
+     border: 1px solid white;
+position: absolute;
+    background-color: white;
+
+   
+   
+}
+
+
+
+/* disenio general*/
+
+.galeria:before{
+    width: 100%;
+    list-style:none;
+   padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+
+
+/**/
+.facebook
+{
+    position: relative;
+    display:flex;
+    
+    margin-left: 20%; 
+}
+
+
+.watch_button a
+{
+    /*box y texto formando un button*/
+    position: relative;
+    margin: auto;
+
+    display: block;
+    border: 1px solid white;
+    width: 255px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    
+    /* estetica del button*/
+    text-shadow: 0px 0px 5px #410707,
+                 0px 0px 10px #410707,
+                 0PX 0PX 15PX #410707,
+                  0PX 0PX 10PX #FFF,
+    0PX 0PX 10PX #FFF,
+        0PX 0PX 35PX #410707,
+        0PX 0PX 20PX #410707,
+        0PX 0PX 20PX #410707;
+    box-shadow: 0px 0px 5px #FFF;
+    color: #fff;
+ 
+    font-family: fantasy;
+    font-size: 200%
+   
+    
+    
+}
+
+.backk_button img
+{
+    position: relative;
+display: block;
+
+     width: 130px;
+    height: 75px;
+    margin: auto;
+ 
+    
+    
+}
+
+.movie_info h1,h4
+{
+margin-left: 20%;
+      color:#FFFFFF;
+    z-index:2;
+    position: relative;
+    background-position: center;
+    
+}
+
+.movie_info h1
+{
+   
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    text-shadow:  0PX 0PX 3PX #410707;
+}
+
+.movie_info h4
+{
+    
+    width: 50%;
+   height: 70px;
+    
+    
+    font-size: 20px;
+    font-family: 'Public Sans', sans-serif;
+    color: white;
+     text-shadow:  0PX 0PX 3PX #410707;
+}
+
+
+
+
+
+
+/******JOKER**************************************/
+.presentacionJoker
+{
+    /*  imagen de fondo */
+
+      background-image: url(https://k62.kn3.net/taringa/D/2/3/C/1/B/pedrosatv/550x310_A90.jpg);
+   width: 100%;
+    height:  661px;
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+  
+    
+    
+}
+
+.presentacionJoker:before
+{
+     content: "";
+    width: 100%;
+    height: 661px;
+    background-color: #050504;
+    position: absolute;
+    opacity: 0.9;
+    background-size: cover;
+     background-attachment: fixed;
+     background-position: center ;
+    
+    
+}
+
+
+
+
+.picture_cineJoker img{
+    position: relative;
+    display: block;
+    
+    opacity: 0.6px;
+    margin-left: 30px;
+    opacity: 75%;
+    
+    
+    
+}
+
+
+
+
+
+
+
+/****************INTERESTELAR*********************************/
+
+.presentacionInterestelar
+{
+        /* fondo */
+
+      background-image: url(img/interestelar2.jpg);
+    width: 100%;
+    height: 661px;
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    
+}
+
+.presentacionInterestelar:before
+{
+     content: "";
+    width: 100%;
+    height: 661px;
+    background-color: #050504;
+    position: absolute;
+    opacity: 0.9;
+    background-size: cover;
+     background-attachment: fixed;
+     background-position: center center;
+    
+}
+
+
+.picture_cineInterestelar img{
+    
+    
+     position: relative;
+    display: block;
+    
+    opacity: 0.6px;
+    margin-left: 30px;
+    opacity: 50%;
+    
+}
+
+
+/******************************* BLACK PANTER*****************************/
+.presentacionBlackPanther
+{
+     /* fondo */
+
+      background-image: url(img/blackPanter_fondo.jpg);
+   width: 100%;
+     height: 661px;
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  
+
+        
+}
+.presentacionBlackPanther:before
+{
+    content: "";
+    width: 100%;
+     height: 661px;
+    background-color: #050504;
+    position: absolute;
+    opacity: 0.9;
+    background-size: cover;
+     background-attachment: fixed;
+     background-position: center center;
+}
+
+.picture_cineBlackPanther img{
+    position: relative;
+    display: block;
+    
+    opacity: 0.6px;
+    margin-left: 30px;
+    opacity: 50%;
+    
+}
+/******************************* JUMANJI 2019 *****************************/
+
+     
+.presentacionjumanji2017
+{
+     /* fondo */
+
+      background-image: url(https://image.tmdb.org/t/p/original/2VWmXjomGf4HPgSZ73g67qMYFkk.jpg);
+   width: 100%;
+     height: 661px;
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  
+
+        
+}
+.presentacionjumanji2017:before
+{
+    content: "";
+    width: 100%;
+     height: 661px;
+    background-color: #050504;
+    position: absolute;
+    opacity: 0.9;
+    background-size: cover;
+     background-attachment: fixed;
+     background-position: center center;
+}
+
+.picture_cineJumanji2017 img{
+    position: relative;
+    display: block;
+    
+    opacity: 0.6px;
+    margin-left: 30px;
+    opacity: 50%;
+    
+}
+
+/******************************* PRISIONEROS 2019 *****************************/
+
+
+
+     
+.presentacionPrisioneros
+{
+     /* fondo */
+
+      background-image: url(https://image.tmdb.org/t/p/original/r5GFZbhCdIqaoQGZbMDX210F1Xk.jpg);
+   width: 100%;
+     height: 661px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  
+
+        
+}
+.presentacionPrisioneros:before
+{
+    content: "";
+    width: 100%;
+     height: 661px;
+    background-color: #050504;
+    position: absolute;
+    opacity: 0.9;
+    background-size: cover;
+     background-attachment: fixed;
+     background-position: center center;
+}
+
+.picture_prisioneros img{
+    position: relative;
+    display: block;
+    
+    opacity: 0.6px;
+    margin-left: 30px;
+    opacity: 50%;
+    
+}
+
+
+
+
+
